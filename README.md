@@ -1,6 +1,6 @@
 # KTNET_InternProject
 
-#Smart 구매확인서 발급지원서비스
+Smart 구매확인서 발급지원서비스
 
 과제 설명
 ---------
@@ -20,7 +20,7 @@
 -	Build/Deploy : Maven, Jenkins
 -	ORM : Mybatis 3.4.5
 
-#### 로컬 개발 환경
+#### 로컬
 
 -	Eclipse Oxygen
 -	Workbench 6.3
