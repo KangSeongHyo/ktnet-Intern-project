@@ -20,7 +20,7 @@ Smart 구매확인서 발급지원서비스
 -	Build/Deploy : Maven, Jenkins
 -	ORM : Mybatis 3.4.5
 
-#### 로컬
+#### 로컬 환경
 
 -	Eclipse Oxygen
 -	Workbench 6.3
@@ -31,4 +31,5 @@ Smart 구매확인서 발급지원서비스
 ### Week 1: 기획서 작성 & 로컬 개발환경 구축
 
 > -	분석 설계 이행 구현 파트별로 산출물 탬플릿 작성
-> -	JDK, Eclipse, Spring, Git, Svn 설치
+> -	JDK, Eclipse, Spring, Git, Svn 설치(11/21)
+> - 탬플릿 회의 & 수정, WBS 산정(11/22)
