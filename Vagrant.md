@@ -10,12 +10,15 @@
 
 ```
     Vagrant.configure("2") do |config|
-        config.vm.box = "ubuntu/xenial64" --> 이미지는 Box로 명명
+        config.vm.box = "centos/7" --> 이미지는 Box로 명명
         config.vm.provider "virtualbox" do |vb|
         vb.memory = "6144"
         vb.cpus = "6"
        end
       config.vm.network "forwarded_port", guest: 80, host: 8080 --> 포트포워딩
+      config.vm.network "forwarded_port", guest: 9100, host: 9100
+      config.vm.network "forwarded_port", guest: 3690, host: 3690
+      config.vm.network "forwarded_port", guest: 22, host: 22
     end
 ```
 
@@ -40,4 +43,7 @@
       - 환경변수 VAGRANT_PREFER_SYSTEM_BIN 값 0 을 추가한다
   3. 외부에서 vagrant vm으로 접속시 permission denied (publickey gssapi-keyex gssapi-with-mic)
       - vm에서 sshd_config 수정 -> PasswordAuthentication yes 변경 -> 재시작
-      - [참고](https://blog.naver.com/nniing/221029806232)
+      - [해결참고](https://blog.naver.com/nniing/221029806232)
+  4. Encoding::CompatibilityError
+      - 윈도우 계정명이 한글일 경우 발생
+      - [해결참고](http://webfuel.tistory.com/8)
