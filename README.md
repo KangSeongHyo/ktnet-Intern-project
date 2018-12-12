@@ -11,19 +11,19 @@ Smart 구매확인서 발급지원서비스
 개발 환경
 ---------
 
--	Server : CentOS 7.4 (미정)
--	WS/WAS : Apach + Tomcat 8
+-	Server : CentOS 7.4
+-	WS/WAS : Apach + Tomcat 8.5.35
 -	Language : Javascript( JQuery ), Java( Open jdk(julu) 1.8.0 8u181 )
 -	FrameWork : Spring 5.1.1
--	DB server : MySQL 5.6
--	Front : BootStrap 4.0
+-	DB server : oracle 11g
+-	Front : BootStrap 3.3.7
 -	Build/Deploy : Maven, Jenkins
 -	ORM : Mybatis 3.4.5
 
 #### 로컬 환경
 
 -	Eclipse Oxygen
--	Workbench 6.3
+-	sqlDevlopeer
 
 진행사항
 --------
@@ -43,9 +43,15 @@ Smart 구매확인서 발급지원서비스
 > - 요구사항 정의서 수정 / Usecase 다이어그램 작성 / 멘토 피드백(11/29)
 > - 요구사항 정의서, Usecase 다이어그램 보완 / 분석산출물 최종제출(11/30)
 
-### Wek 3: 설계
+### Week 3: 설계
 
 > - 요구사항 바탕으로 UI설계(프로토타이핑툴 활용)(12/3~4)
 > - 고객인터뷰 3차(UI설계)(12/5)
 > - UI설계서 작성, ERD 작성 / 멘토 피드백(12/6)
 > - UI, DB설계서 보완 / 개발환경정의서 작성 / 설계산출물 최종제출(12/7)
+
+## week 4: 개발
+
+> - 서버환경셋팅(zulu-8, jenkins, maven, oracle db, svn, tomcat 설치)(12/10)
+> - jenkins와 tomcat 연동 / 배포테스트 (12/11)
+> - 발급지원접수 목록 화면개발(ax5ui,bootstrap)(12/12)
