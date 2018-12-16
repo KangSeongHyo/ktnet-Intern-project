@@ -54,4 +54,5 @@ Smart 구매확인서 발급지원서비스
 
 > - 서버환경셋팅(zulu-8, jenkins, maven, oracle db, svn, tomcat 설치)(12/10)
 > - jenkins와 tomcat 연동 / 배포테스트 (12/11)
-> - 발급지원접수 목록 화면개발(ax5ui,bootstrap)(12/12)
+> - 발급지원접수 목록 화면개발(bootstrap)(12/12)
+> - 발급지원접수 취합 기능개발 & 화면개발(12/13~14)
