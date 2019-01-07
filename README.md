@@ -12,7 +12,7 @@ Smart 구매확인서 발급지원서비스
 ---------
 
 -	Server : CentOS 7.4
--	WS/WAS : Apach + Tomcat 8.5.35
+-	WS/WAS : nginx 1.12.2 , Tomcat 8.5.35
 -	Language : Javascript( JQuery ), Java( Open jdk(julu) 1.8.0 8u181 )
 -	FrameWork : Spring 5.1.1
 -	DB server : oracle 11g
@@ -50,10 +50,10 @@ Smart 구매확인서 발급지원서비스
 > - UI설계서 작성, ERD 작성 / 멘토 피드백(12/6)
 > - UI, DB설계서 보완 / 개발환경정의서 작성 / 설계산출물 최종제출(12/7)
 
-### week 4 ~ 7: 개발
+### Week 4 ~ 7: 개발
 
 > - 서버환경셋팅(zulu-8, jenkins, maven, oracle db, svn, tomcat 설치)(12/10)
-> - jenkins와 tomcat 연동 / 배포테스트 (12/11)
+> - jenkins와 tomcat 연동 / 배포테스트 / nginx 연동 (12/11)
 > - 발급접수신청 목록 화면개발(bootstrap)(12/12)
 > - 발급접수신청 취합 기능개발 & 화면개발(12/13~14)
 > - 조회&검색 화면개발 / 테이블 선정(12/17)
