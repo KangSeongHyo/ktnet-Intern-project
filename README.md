@@ -19,7 +19,7 @@ Smart 구매확인서 발급지원서비스
 -	Front : BootStrap 3.3.7
 -	Build/Deploy : Maven, Jenkins
 -	ORM : Mybatis 3.4.5
-
+- Test : Junit 4.12
 #### 로컬 환경
 
 -	Eclipse Oxygen
